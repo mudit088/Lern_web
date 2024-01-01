@@ -33,10 +33,10 @@ const Landing = () => {
   }, [img.length]);
 
   return (
-     
-    <div className=' flex flex-col sm:flex-row'>
+     <div className='m-2'>
+    <div className='  flex flex-col sm:flex-row'>
 
-      <div className='pt-18'>
+      <div className='pt-18 '>
         <p className=' text-4xl sm:text-7xl pt-6 m-6 sm:m-12 ml-4 sm:ml-40 font-semibold'>
       <p className='flex'> <p className='dark:text-white'> Learn </p><p className='text-white'>.</p> <p className='text-blue-500'> Anything,</p></p>
        <p className='text-pink-300'> Anytime,</p> <p className='text-cyan-300'> Anywhere.</p>
@@ -44,14 +44,14 @@ const Landing = () => {
         Experience a customized learning journey that adapts to your unique needs and empowers you to excel in any subject.
         </p>
         <div className='  sm:ml-20'>
-        <button className='text-white bg-gradient-to-b text-lg from-cyan-500 to-blue-500 px-6 p-3 my-8 m-2 flext-items-center rounded-md hover:scale-110 duration-300 '>
+        <button className='text-white bg-gradient-to-b text-lg from-cyan-500 to-blue-500 px-6 p-1 sm:p-3 my-8 sm:m-2 m-1 flext-items-center rounded-md hover:scale-110 duration-300 '>
         <ul>
           <li>
             <a href="#">Start Learning</a>
           </li>
         </ul>
         </button>
-        <button className='text-white bg-gradient-to-b text-lg from-cyan-500 to-blue-500 px-6 p-3 my-8 m-2 flext-items-center rounded-md hover:scale-110 duration-300 '>
+        <button className='text-white bg-gradient-to-b text-lg from-cyan-500 to-blue-500 px-6 p-1 sm:p-3 my-8 sm:m-2 m-1 flext-items-center rounded-md hover:scale-110 duration-300 '>
         <ul>
           <li>
             <a href="#">Join us</a>
@@ -70,7 +70,7 @@ const Landing = () => {
     <div className=' max-w-[800px] h-[400px] w-full  sm:mr-36 sm:mt-12 sm:ml-36 relative'>
       <div
         style={{ backgroundImage: `url(${img[currentSlide].url})` }}
-        className='w-full h-full mt-4 rounded-2xl bg-center bg-cover duration-500 flex justify-end'
+        className='w-full h-full sm:mt-4 rounded-2xl bg-center bg-cover duration-500 flex justify-end'
       ></div>
       <div className="absolute top-1/2 transform -translate-y-1/2 left-4">
         <div onClick={handlePrevSlide}>
@@ -84,6 +84,8 @@ const Landing = () => {
       </div>
     </div>
     </div>
+    </div>
+    
     
   );
 };
