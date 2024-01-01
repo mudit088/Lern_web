@@ -37,7 +37,7 @@ const Landing = () => {
     <div className=' flex flex-col sm:flex-row'>
 
       <div className='pt-18'>
-        <p className=' text-6xl sm:text-7xl pt-6 m-6 sm:m-12 ml-4 sm:ml-40 font-semibold'>
+        <p className=' text-5xl sm:text-7xl pt-6 m-6 sm:m-12 ml-4 sm:ml-40 font-semibold'>
       <p className='flex'> <p className='dark:text-white'> Learn </p><p className='text-white'>.</p> <p className='text-blue-500'> Anything,</p></p>
        <p className='text-pink-300'> Anytime,</p> <p className='text-cyan-300'> Anywhere.</p>
        <p className='text-xl pt-2 sm:pt-10 dark:text-white'>
@@ -67,7 +67,7 @@ const Landing = () => {
       </div>
     
 
-    <div className='max-w-[800px] h-[400px] w-full ml-4  sm:mr-36 sm:mt-12 sm:ml-36 relative'>
+    <div className='max-w-[800px] h-[400px] w-full   sm:mr-36 sm:mt-12 sm:ml-36 relative'>
       <div
         style={{ backgroundImage: `url(${img[currentSlide].url})` }}
         className='w-full h-full mt-4 rounded-2xl bg-center bg-cover duration-500 flex justify-end'
