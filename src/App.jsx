@@ -1,23 +1,23 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 
-import './App.css'
-import Navbaar from './Componnts/Navbaar'
-import Landing from './Componnts/Landing'
-import Features from './Componnts/Features'
-import Signin from './Componnts/Signin'
+// import './App.css'
+// import Navbaar from './Componnts/Navbaar'
+// import Landing from './Componnts/Landing'
+// import Features from './Componnts/Features'
+// import Signin from './Componnts/Signin'
 
-function App() {
-  const [count, setCount] = useState(0)
+// function App() {
+//   const [count, setCount] = useState(0)
 
-  return (
-    <div>
-      <Navbaar/>
-      <Landing/>
-      <Features/>
-      <Signin/>
+//   return (
+//     <div>
+//       <Navbaar/>
+//       <Landing/>
+//       <Features/>
+//       <Signin/>
       
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default App
+// export default App

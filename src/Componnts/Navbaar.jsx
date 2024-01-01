@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link,NavLink  } from "react-router-dom";
 
 const Navbaar = () => {
   return (
@@ -16,8 +17,11 @@ const Navbaar = () => {
           Contact
         </li>
 
-        <li  className='py-4 pr-5 sm:pr-20 cursor-pointer capitalize text-lg text-white hover:scale-105 duration-200'>
-          <a href="#">Sign In</a>
+        <li > 
+          <NavLink to='/SignIn' className={(isActive)=>`"py-4 pr-5 sm:pr-20 cursor-pointer capitalize text-lg text-white hover:scale-105 duration-200 ${isActive?'text-white' : 'text-red-500'}"`
+          }>
+            Sign In
+          </NavLink>
         </li>
    
     </ul>
