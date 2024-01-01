@@ -38,9 +38,9 @@ const Landing = () => {
 
       <div className='pt-18'>
         <p className=' text-6xl sm:text-7xl pt-6 m-6 sm:m-12 ml-4 sm:ml-40 font-semibold'>
-      <p className='flex'> <p> Learn </p><p className='text-white'>.</p> <p className='text-blue-500'> Anything,</p></p>
+      <p className='flex'> <p className='dark:text-white'> Learn </p><p className='text-white'>.</p> <p className='text-blue-500'> Anything,</p></p>
        <p className='text-pink-300'> Anytime,</p> <p className='text-cyan-300'> Anywhere.</p>
-       <p className='text-xl pt-2 sm:pt-10'>
+       <p className='text-xl pt-2 sm:pt-10 dark:text-white'>
         Experience a customized learning journey that adapts to your unique needs and empowers you to excel in any subject.
         </p>
         <div className=' ml-4 sm:ml-20'>
