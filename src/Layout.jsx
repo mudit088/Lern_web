@@ -13,7 +13,7 @@ const Layout = () => {
 
   return (
     <div className={darkMode ? 'dark' : ''}>
-      <div className={darkMode ? 'bg-black  w-full h-full' : ''}>
+      <div className={darkMode ? 'bg-gray-900  w-full h-full' : ''}>
         <Navbaar />
         <button
         className='bg-gray-700 text-white relative mt-3 ml-4 p-2 border-2 rounded-xl'
