@@ -16,7 +16,7 @@ const Layout = () => {
       <div className={darkMode ? 'bg-black  w-full h-full' : ''}>
         <Navbaar />
         <button
-        className='bg-gray-700 text-white relative ml-4 p-2 border-2 rounded-xl'
+        className='bg-gray-700 text-white relative mt-3 ml-4 p-2 border-2 rounded-xl'
         onClick={toggleDarkMode}
       >
         {darkMode ? 'Light' : 'Dark'}
