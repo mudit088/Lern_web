@@ -9,13 +9,13 @@ const Signin = () => {
    
       <div className="xl:mx-auto xl:w-full xl:max-w-sm 2xl:max-w-md">
         
-        <h2 className="text-2xl font-bold leading-tight text-black">Sign in to your account</h2>
+        <h2 className="text-2xl font-bold leading-tight dark:text-white text-black">Sign in to your account</h2>
         <p className="mt-2text-sm text-gray-600 ">
           don't have an account?{' '}
           <a
             href="#"
             title=""
-            className="font-semibold text-black transition-all duration-200 hover:underline"
+            className="font-semibold dark:text-white text-black transition-all duration-200 hover:underline"
           >
             Create a free account
           </a>
@@ -23,7 +23,7 @@ const Signin = () => {
         <form action="#" method="POST" className="mt-8">
           <div className="space-y-5">
             <div>
-              <label htmlFor="" className="text-base font-medium text-gray-900">
+              <label htmlFor="" className="text-base font-medium dark:text-white text-gray-900">
                 {' '}
                 Email address{' '}
               </label>
@@ -37,11 +37,11 @@ const Signin = () => {
             </div>
             <div>
               <div className="flex items-center justify-between">
-                <label htmlFor="" className="text-base font-medium text-gray-900">
+                <label htmlFor="" className="text-base font-medium dark:text-white text-gray-900">
                   {' '}
                   Password{' '}
                 </label>
-                <a href="#" title="" className="text-sm font-semibold text-black hover:underline">
+                <a href="#" title="" className="text-sm font-semibold dark:text-white text-black hover:underline">
                   {' '}
                   Forgot password?{' '}
                 </a>
@@ -57,7 +57,7 @@ const Signin = () => {
         <div>
           <button
             type="button"
-            className="inline-flex w-full items-center justify-center rounded-md bg-teal-500 px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-teal-200"
+            className="inline-flex w-full items-center justify-center rounded-md bg-blue-500 px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-teal-200"
           >
                 Get started
               </button>
