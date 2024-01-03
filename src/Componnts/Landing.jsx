@@ -33,8 +33,8 @@ const Landing = () => {
   }, [img.length]);
 
   return (
-     <div className='m-2'>
-    <div className='  flex flex-col sm:flex-row'>
+     <div className='m-'>
+    <div className='  flex flex-col sm:flex-row h-screen w-screen'>
 
       <div className='pt-18 '>
         <p className=' text-4xl sm:text-7xl pt-6 m-6 sm:m-12 ml-4 sm:ml-40 font-semibold'>
@@ -70,7 +70,7 @@ const Landing = () => {
     <div className=' max-w-[800px] h-[400px] w-full  sm:mr-36 sm:mt-12 sm:ml-36 relative'>
       <div
         style={{ backgroundImage: `url(${img[currentSlide].url})` }}
-        className='w-full h-full sm:mt-4 rounded-2xl bg-center bg-cover duration-500 flex justify-end'
+        className='w-full h-full sm:mt-4 rounded-2xl bg-center bg-cover duration-600 flex justify-end'
       ></div>
       <div className="absolute top-1/2 transform -translate-y-1/2 left-4">
         <div onClick={handlePrevSlide}>
@@ -84,6 +84,8 @@ const Landing = () => {
       </div>
     </div>
     </div>
+        
+
     </div>
     
     

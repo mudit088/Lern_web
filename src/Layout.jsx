@@ -3,6 +3,7 @@ import Navbaar from './Componnts/Navbaar';
 import Landing from './Componnts/Landing';
 import { Outlet } from 'react-router-dom';
 import Signin from './Componnts/Signin';
+import Features from './Componnts/Features';
 
 const Layout = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -13,7 +14,7 @@ const Layout = () => {
 
   return (
     <div className={darkMode ? 'dark' : ''}>
-      <div className={darkMode ? 'bg-gray-900  w-full h-full' : ''}>
+      <div className={darkMode ? 'bg-gray-900 sm:w-full-screen sm:h-full-screen w-full h-full' : ''}>
         <Navbaar />
         <button
         className='bg-gray-700 text-white relative mt-3 ml-4 p-2 border-2 rounded-xl'
@@ -23,6 +24,8 @@ const Layout = () => {
       </button>
         <Outlet />
         <Landing />
+        <Features/>
+        
       </div>
       
     </div>
