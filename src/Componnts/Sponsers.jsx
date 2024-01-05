@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sponsers = () => {
   return (
-    <div className='w-full h-full flex justify-center items-center  sm:mt-0'>
+    <div className='w-full h-full flex justify-center items-center mt-20 sm:mt-0'>
     <section className='m-4 p-4  sm:m-10 sm:pl-20 sm:pr-20 rounded-2xl bg-gray-700'>
       <div>
         <h1 className='text-4xl sm:text-6xl flex justify-center items-center mt-5 sm:mt-10 text-white pt-5'>
