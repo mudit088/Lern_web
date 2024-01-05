@@ -129,7 +129,7 @@ const Features = () => {
       </div>
       <div
         className='flip-card-back w-[100%] h-[100%] bg-cover border-[1px] text-white rounded-lg p-4'
-        style={{ backgroundImage: 'url(public/test2.jpg)' }}
+        style={{ backgroundImage: 'url(src/assets/test2.jpg)' }}
       ></div>
     </motion.div>
   </div>
