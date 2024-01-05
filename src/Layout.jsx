@@ -4,6 +4,8 @@ import Landing from './Componnts/Landing';
 import { Outlet } from 'react-router-dom';
 import Signin from './Componnts/Signin';
 import Features from './Componnts/Features';
+import Sponsers from './Componnts/Sponsers';
+import Grow from './Componnts/Grow';
 
 const Layout = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -25,6 +27,8 @@ const Layout = () => {
         <Outlet />
         <Landing />
         <Features/>
+        <Sponsers/>
+        <Grow/>
         
       </div>
       
