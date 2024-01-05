@@ -9,9 +9,9 @@ const Sponsers = () => {
           Powered By
         </h1>
         <div className='flex flex-wrap justify-center items-center mt-10 sm:mt-20'>
-          <img src="src/assets/palm-bc250852.svg" className='p-2 sm:p-4' alt="" />
-          <img src="src/assets/mongodb-54cbbba4.svg" className='p-2 sm:p-4' alt="" />
-          <img src="src/assets/gcp-e9479d51.svg " className='w-80 p-2 sm:p-4' alt="" />
+          <img src="/palm-bc250852.svg" className='p-2 sm:p-4' alt="" />
+          <img src="/mongodb-54cbbba4.svg" className='p-2 sm:p-4' alt="" />
+          <img src="/gcp-e9479d51.svg" className='w-80 p-2 sm:p-4' alt="" />
         </div>
       </div>
     </section>
