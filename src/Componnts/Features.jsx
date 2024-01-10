@@ -32,9 +32,9 @@ const Features = () => {
     <h1 className='text-6xl text-black dark:text-white flex items-center justify-center sm:pb-36 mt-36 p-10 '>Features</h1>
 
     
-    <div className='flip-card w-full sm:w-[600px] h-[360px] sm:absolute rounded-md m-4 sm:m-2 ml-0 sm:ml-10' onClick={handleFlip}>
+    <div className='flip-card   sm:w-[600px] h-[360px] sm:absolute rounded-md  sm:m-2 m-4 sm:ml-10' onClick={handleFlip}>
   <motion.div
-    className='flip-card-inner shadow-xl bg-pink-100 shadow-blue-600 w-full h-full sm:w-[100%] sm:h-[100%]'
+    className='flip-card-inner shadow-xl  bg-pink-100 shadow-blue-600 w-full h-full sm:w-[100%] sm:h-[100%]'
     initial={false}
     animate={{ rotateY: isFlipped ? 180 : 360 }}
     transition={{ duration: 0.6, animationDirection: 'normal' }}
@@ -68,8 +68,8 @@ const Features = () => {
     
 
       
-      <div className="flip-card w-[600px] h-[360px] rounded-md sm:mt-72 mt-10 ml-10  sm:mr-10 mb-20 float-right  mt-20" onClick={handleFlip}>
-        <div>
+      <div className="flip-card w-[600px] h-[360px] rounded-md sm:mt-72   sm:m-2  sm:mr-10  mb-20  float-right  mt-20" onClick={handleFlip}>
+        
         <motion.div
           className="flip-card-inner shadow-xl  shadow-pink-300 bg-yellow-100 w-[100%] h-[100%] absolute"
           initial={false}
@@ -93,7 +93,7 @@ const Features = () => {
 
           
         </motion.div>
-        </div>
+      
 
        
       </div>
@@ -110,7 +110,7 @@ const Features = () => {
 
         
         <div className='h-screen w-screen'>
-  <div className='flip-card w-full sm:w-[80%] lg:w-[600px] h-[360px] mb-56 sm:mt-10 sm:ml-2 sm:absolute rounded-md' onClick={handleFlip}>
+  <div className='flip-card  sm:w-[80%] lg:w-[600px] h-[360px] mb-56 m-4 sm:mt-10 sm:ml-10 sm:absolute rounded-md' onClick={handleFlip}>
     <motion.div
       className='flip-card-inner mt-40  shadow-xl bg-blue-200 shadow-cyan-300 w-[100%] h-[100%] absolute'
       initial={false}

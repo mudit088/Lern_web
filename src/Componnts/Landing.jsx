@@ -9,7 +9,7 @@ const Landing = () => {
       url: '/Free-Online-Resources.jpg',
     },
     {
-      url: '/great-teacher.jpg',
+      url: '/careers-student-teacher.jpg',
     },
     {
       url: '/Skillstork-1568x882.jpg',
@@ -33,8 +33,8 @@ const Landing = () => {
   }, [img.length]);
 
   return (
-     <div className='m-'>
-    <div className='  flex flex-col sm:flex-row h-screen w-screen'>
+     <div className=''>
+    <div className='  flex flex-col sm:flex-row  w-screen'>
 
       <div className='pt-18 '>
         <p className=' text-4xl sm:text-7xl pt-6 m-6 sm:m-12 ml-4 sm:ml-40 font-semibold'>
@@ -67,7 +67,7 @@ const Landing = () => {
       </div>
     
       
-    <div className=' max-w-[800px] h-[400px] w-full  sm:mr-36 sm:mt-12 sm:ml-36 relative'>
+    <div className='sm:w-full max-w-[800px] h-[400px] m-4   sm:mr-36 sm:mt-12 sm:ml-36 relative'>
       <div
         style={{ backgroundImage: `url(${img[currentSlide].url})` }}
         className='w-full h-full sm:mt-4 rounded-2xl bg-center bg-cover duration-600 flex justify-end'

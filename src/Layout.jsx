@@ -15,7 +15,7 @@ const Layout = () => {
   };
 
   return (
-    <div className={darkMode ? 'dark' : ''}>
+    <div className={darkMode ? 'dark' : ''} style={{margin :"4"}}>
       <div className={darkMode ? 'bg-gray-900 sm:w-full-screen sm:h-full-screen w-full h-full' : ''}>
         <Navbaar />
         <button
@@ -33,6 +33,8 @@ const Layout = () => {
       </div>
       
     </div>
+    
+      
   );
 };
 
